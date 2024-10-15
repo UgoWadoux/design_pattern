@@ -29,8 +29,8 @@ class CheckedOutState implements State {
 class CartContext {
     protected $state;
 
-    function __construct(State $state) {
-        $this->setState($state);
+    function __construct() {
+        $this->setState(new EmptyState());
     }
 
     public function setState(State $state) {
@@ -43,8 +43,10 @@ class CartContext {
 }
 
 // Utilisation
-$cart = new CartContext(new EmptyState());
+$cart = new CartContext();
 $cart->proceed();
 $cart->proceed();
 $cart->proceed();
+
+
 
