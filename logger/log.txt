@@ -1,0 +1,8 @@
+Hello WorldAnother log messageHello WorldAnother log messageHello WorldAnother log messageHello WorldAnother log messageHello World
+Another log message
+2024-10-14 09:24:51Hello World
+2024-10-14 09:24:51Another log message
+2024-10-14 09:25:00Hello World
+2024-10-14 09:25:00Another log message
+2024-10-14 09:25:26 Hello World
+2024-10-14 09:25:26 Another log message
